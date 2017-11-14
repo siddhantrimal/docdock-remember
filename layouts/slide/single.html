@@ -3,6 +3,7 @@
 	<link rel="stylesheet" href="{{"revealjs/css/reveal.css"|relURL}}">
 	<link rel="stylesheet" href="{{"revealjs/css/theme/"|relURL}}{{.Params.theme}}.css" id="theme">
 	<link rel="stylesheet" href="{{"revealjs/lib/css/zenburn.css"|relURL}}">
+	<link rel="stylesheet" href="{{"revealjs/plugin/swal2/sweetalert2.min.css"|relURL}}">
 
 	<div class="reveal">
 	<div class="slides">
@@ -31,6 +32,8 @@
 		          { src: '{{"revealjs/plugin/markdown/markdown.js"|relURL}}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 		          { src: '{{"revealjs/plugin/highlight/highlight.js"|relURL}}', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 		          { src: '{{"revealjs/plugin/zoom-js/zoom.js"|relURL}}', async: true, condition: function() { return !!document.body.classList; } },
+		          { src: '{{"revealjs/plugin/swal2/jquery-3.2.1.min.js"|relURL}}'},
+		          { src: '{{"revealjs/plugin/swal2/sweetalert2.min.js"|relURL}}'},
 		          { src: '{{"revealjs/plugin/notes/notes.js"|relURL}}', async: true, condition: function() { return !!document.body.classList; } },
 		          { src: '{{"revealjs/plugin/math/math.js"|relURL}}', async: true}
 		        ]
