@@ -17,7 +17,7 @@ A [fork][1] for custom theme submodule implementation in [remember][2]
 
 # Documentation
 
-Usage documentation is present in the original documentation. Relevant changes are mentioned in the [changelog](#changelog)
+Usage documentation is present in the [original documentation][4]. Relevant changes are mentioned in the [changelog](#changelog)
 
 
 
@@ -28,6 +28,7 @@ Usage documentation is present in the original documentation. Relevant changes a
 [1]: https://github.com/vjeantet/hugo-theme-docdock
 [2]: https://github.com/siddhantrimal/remember
 [3]: https://github.com/siddhantrimal/docdock-remember/blob/master/LICENSE.md
+[4]: https://github.com/vjeantet/hugo-theme-docdock/blob/master/README.md
 
 <!-- CHANGELOGS -->
 
